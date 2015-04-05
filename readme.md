@@ -58,6 +58,7 @@ cd ../themes/ionisx/
 git pull
 cd ../../edx-platform/
 paver update_assets lms --settings=aws
+paver update_assets cms --settings=aws
 ```
 
 ## License
