@@ -1,15 +1,15 @@
 jQuery(document).ready(function($){
 	//set your google maps parameters
-	var latitude = 51.5255069,
-		longitude = -0.0836207,
-		map_zoom = 14;
+	var latitude = 47.705256,
+		longitude = -122.16716,
+		map_zoom = 8;
 
 	//google map custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
 	var marker_url = ( is_internetExplorer11 ) ? 'static/themes/ionisx/img/cd-icon-location.png' : 'static/themes/ionisx/img/cd-icon-location.svg';
 		
 	//define the basic color of your map, plus a value for saturation and brightness
-	var	main_color = '#2d313f',
+	var	main_color = '#00AFF0',
 		saturation_value= -20,
 		brightness_value= 5;
 
