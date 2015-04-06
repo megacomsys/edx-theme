@@ -452,7 +452,7 @@ header h1 {
   }
 }
 
-.content-wrapper > .static-container ol, .content-wrapper > .static-container ul#myfaqlist {
-    list-style: outside none none;
+#myfaqlist.content-wrapper > .static-container ol, #myfaqlist.content-wrapper > .static-container ul {
+    list-style: none;
     font-size: 2em;
 }
