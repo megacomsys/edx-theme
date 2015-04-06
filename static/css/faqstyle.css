@@ -451,8 +451,3 @@ header h1 {
     display: block;
   }
 }
-
-.content-wrapper > .static-container ol, .content-wrapper > .static-container ul {
-    list-style: none;
-    font-size: 2em;
-}
