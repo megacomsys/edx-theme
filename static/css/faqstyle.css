@@ -452,7 +452,7 @@ header h1 {
   }
 }
 
-ul#myfaqlist {
-    list-style-type:none;
-    font-size: 150%;
+.content-wrapper > .static-container ol, .content-wrapper > .static-container ul#myfaqlist {
+    list-style: outside none none;
+    font-size: 2em;
 }
