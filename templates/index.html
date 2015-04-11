@@ -20,12 +20,6 @@
   <header>
     <div class="outer-wrapper">
       <div class="title">
-
-            <h1>This is h1 </h1>
-            <h2>This is h2</h2>
-            <h3>This is h3</h3>
-            <p>This is p</p>
-
         <hgroup>
           % if homepage_overlay_html:
             ${homepage_overlay_html}
@@ -72,7 +66,13 @@
   </header>
   <section class="container">
     <section class="highlighted-courses">
-
+      <h1>Our top rated courses</h1>
+      <hgroup>
+          <h1>This is h1 </h1>
+          <h2>This is h2</h2>
+          <h3>This is h3</h3>
+          <p>This is p</p>
+      </hgroup>    
       % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <section class="courses">
             <ul class="courses-listing">
