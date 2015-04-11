@@ -9,8 +9,7 @@
     <div class="row">
 
         <div class="col-sm-4">
-            <a href="//be.a.cloudgeni.us"><img src="${static.url('themes/{theme_name}/images/logo-x-white-small.png'.format(theme_name=settings.THEME_NAME))}" width="47" height="32" alt="Be a Cloud Genius" class="img-responsive"/>
-            </a>
+            <img src="${static.url('themes/{theme_name}/images/logo-open-edx.png'.format(theme_name=settings.THEME_NAME))}" width="273" height="48" alt="Be a Cloud Genius" class="img-responsive"/>
             <br/>
             <p>
               Vendor neutrality, open source focus, best of breed solutions, practical hands on experiences in our google hangouts, zero powerpoint, no lecturing, sheer collaboration and productivity are just some of the factors that you see, but the real kicker is the immensely positive feedback from our graduates that really makes us tick.
@@ -88,8 +87,8 @@
 
     <div class="text-center">
       <font size="3">
-        <a href="//be.a.cloudgeni.us"><img src="${static.url('themes/{theme_name}/images/logo-x-white-small.png'.format(theme_name=settings.THEME_NAME))}" width="47" height="32" alt="Be a Cloud Genius" class="img-responsive"/></a>
-        <p class="copyright">${_(u"© 2011-2015 {platform_name}, all rights reserved.").format(platform_name=platform_name())}</p>
+        <p class="copyright">
+          <img src="${static.url('themes/{theme_name}/images/logo-x-white-small.png'.format(theme_name=settings.THEME_NAME))}" width="47" height="32" alt="Be a Cloud Genius"/>${_(u"© 2011-2015 {platform_name}, all rights reserved.").format(platform_name=platform_name())}</p>
       </font>
     </div>
 
