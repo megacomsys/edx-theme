@@ -30,21 +30,25 @@
                 <li>
                   <a href="//be.a.cloudgeni.us/about">About</a>
                 </li>
+                <br/>
                 %if settings.MKTG_URL_LINK_MAP.get('FAQ'):
                 <li>
                   <a id="faq" href="${marketing_link('FAQ')}">${_("FAQ")}</a>
                 </li>
                 %endif
+                <br/>
                 %if settings.MKTG_URL_LINK_MAP.get('CONTACT'):
                 <li>
                   <a id="contact" href="${marketing_link('CONTACT')}">${_("Contact")}</a>
                 </li>
                 %endif
+                <br/>
                 %if settings.MKTG_URL_LINK_MAP.get('TOS'):
                 <li>
                   <a href="${marketing_link('TOS')}">${_("TOS")}</a>
                 </li>
                 %endif
+                <br/>
 <!--                %if settings.MKTG_URL_LINK_MAP.get('HONOR'):
 <!--                <li>
 <!--                  <a href="${marketing_link('HONOR')}">${_("Honor")}</a>
@@ -55,33 +59,42 @@
                   <a href="${marketing_link('PRIVACY')}">${_("Privacy")}</a>
                 </li>
                 %endif
+                <br/>
                 <li>
                   <a href="//be.a.cloudgeni.us/blog">Blog</a>
                 </li>
+                <br/>
               </ul>
 <!--          </nav> -->
         </div>
 
+<!--        float:left; clear: left; margin-left: 20px; -->
+
         <div class="col-sm-4">
-          <div>
-          <h2>Follow us</h2>  
+          <h2>Follow us</h2>
           <ul>
-              <li style="float:left; clear: left; margin-left: 20px; list-style-type:none;" class="social-item"><a href="http://www.facebook.com/beacloudgenius" target="_blank"><i class="fa fa-facebook fa-3x"></i> Facebook</a>
+              <li style="list-style-type:none;" class="social-item"><a href="http://www.facebook.com/beacloudgenius" target="_blank"><i class="fa fa-facebook fa-3x"></i> Facebook</a>
               </li>
-              <li style="float:left; clear: left; margin-left: 20px; list-style-type:none;" class="social-item"><a href="http://www.twitter.com/beacloudgenius" target="_blank"><i class="fa fa-twitter fa-3x"></i> Twitter</a>
+              <br/>
+              <li style="list-style-type:none;" class="social-item"><a href="http://www.twitter.com/beacloudgenius" target="_blank"><i class="fa fa-twitter fa-3x"></i> Twitter</a>
               </li>
-              <li style="float:left; clear: left; margin-left: 20px; list-style-type:none;" class="social-item"><a href="http://www.instagram.com/beacloudgenius" target="_blank"><i class="fa fa-instagram fa-3x"></i> Instagram</a>
+              <br/>
+              <li style="list-style-type:none;" class="social-item"><a href="http://www.instagram.com/beacloudgenius" target="_blank"><i class="fa fa-instagram fa-3x"></i> Instagram</a>
               </li>
-              <li style="float:left; clear: left; margin-left: 20px; list-style-type:none;" class="social-item"><a href="https://www.youtube.com/channel/UCvygomQdqFv_p0c00EYufPA" target="_blank"><i class="fa fa-youtube fa-3x"></i> Youtube Channel</a>
+              <br/>
+              <li style="list-style-type:none;" class="social-item"><a href="https://www.youtube.com/channel/UCvygomQdqFv_p0c00EYufPA" target="_blank"><i class="fa fa-youtube fa-3x"></i> Youtube Channel</a>
               </li>
-              <li style="float:left; clear: left; margin-left: 20px; list-style-type:none;" class="social-item"><a href="https://plus.google.com/+NileshLondheHere/photos" target="_blank"><i class="fa fa-google-plus fa-3x"></i> Google+</a>
+              <br/>
+              <li style="list-style-type:none;" class="social-item"><a href="https://plus.google.com/+NileshLondheHere/photos" target="_blank"><i class="fa fa-google-plus fa-3x"></i> Google+</a>
               </li>
-              <li style="float:left; clear: left; margin-left: 20px; list-style-type:none;" class="social-item"><a href="https://www.meetup.com/cloudgenius" target="_blank"><i class="fa fa-users fa-3x"></i> Meetup</a>
+              <br/>
+              <li style="list-style-type:none;" class="social-item"><a href="https://www.meetup.com/cloudgenius" target="_blank"><i class="fa fa-users fa-3x"></i> Meetup</a>
               </li>
-              <li style="float:left; clear: left; margin-left: 20px; list-style-type:none;" class="social-item"><a href="https://www.linkedin.com/edu/alumni?name=Cloud+Genius" target="_blank"><i class="fa fa-linkedin fa-3x"></i> Our graduates</a>
+              <br/>
+              <li style="list-style-type:none;" class="social-item"><a href="https://www.linkedin.com/edu/alumni?name=Cloud+Genius" target="_blank"><i class="fa fa-linkedin fa-3x"></i> Meet our grads</a>
               </li>
+              <br/>
           </ul>
-          </div>
         </div>
 
     </div>
