@@ -52,8 +52,8 @@ To be placed at the end of `templates/theme-head-extra.html
 sudo su edxapp  -s /bin/bash
 cd ~
 source edxapp_env
-
 cd /edx/app/edxapp/edx-platform
+
 cd ../themes/ionisx/
 git pull
 cd ../../edx-platform/
