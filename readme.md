@@ -49,6 +49,7 @@ To be placed at the end of `templates/theme-head-extra.html
 ## Quick theme updates
 
 ```
+
 sudo su edxapp  -s /bin/bash
 cd ~
 source edxapp_env
@@ -60,6 +61,7 @@ cd ../../edx-platform/
 paver update_assets lms --settings=aws
 
 paver update_assets cms --settings=aws
+
 ```
 
 ## License
