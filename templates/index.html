@@ -34,7 +34,7 @@
         </hgroup>
 
         ## Disable social buttons for non-edX sites
-        % if not self.theme_enabled():
+        % if self.theme_enabled():
           <section class="actions">
             <div class="main-cta">
               <a href="#signup-modal" id="signup_action" class="find-courses" rel="leanModal">${_("Sign Up")}</a>
@@ -111,10 +111,10 @@
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-   
+
      ga('create', 'UA-58410322-1', 'auto');
      ga('send', 'pageview');
-   
+
    </script>
 
 </%block>
